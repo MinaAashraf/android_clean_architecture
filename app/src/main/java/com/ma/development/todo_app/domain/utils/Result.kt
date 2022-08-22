@@ -1,4 +1,4 @@
-package com.ma.development.todo_app.domain.util
+package com.ma.development.todo_app.domain.utils
 
 sealed class Result<T> {
 

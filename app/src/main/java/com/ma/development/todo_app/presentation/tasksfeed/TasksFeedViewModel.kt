@@ -3,8 +3,8 @@ package com.ma.development.todo_app.presentation.tasksfeed
 import androidx.lifecycle.*
 import com.ma.development.todo_app.domain.model.Task
 import com.ma.development.todo_app.domain.usecases.*
-import com.ma.development.todo_app.domain.util.onFailure
-import com.ma.development.todo_app.domain.util.onSuccess
+import com.ma.development.todo_app.domain.utils.onFailure
+import com.ma.development.todo_app.domain.utils.onSuccess
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject

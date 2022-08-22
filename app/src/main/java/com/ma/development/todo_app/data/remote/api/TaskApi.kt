@@ -1,8 +1,6 @@
 package com.ma.development.todo_app.data.remote.api
 
 import com.ma.development.todo_app.data.Entities.*
-import com.ma.development.todo_app.utils.TODO_API_AUTHORIZATION_HEADER
-import com.ma.development.todo_app.utils.TODO_API_CONTENT_TYPE_HEADER
 import retrofit2.Response
 import retrofit2.http.*
 

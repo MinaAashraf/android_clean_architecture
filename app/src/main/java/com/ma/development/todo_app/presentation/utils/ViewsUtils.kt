@@ -1,13 +1,11 @@
-package com.ma.development.todo_app.utils
+package com.ma.development.todo_app.presentation.utils
 
 import android.app.AlertDialog
 import android.content.Context
 import android.graphics.Color
-import android.opengl.Visibility
 import android.view.LayoutInflater
 import android.view.View
 import com.google.android.material.snackbar.Snackbar
-import com.ma.development.todo_app.R
 import com.ma.development.todo_app.databinding.CustomDiaologLayoutBinding
 
 fun showDeleteDialog(

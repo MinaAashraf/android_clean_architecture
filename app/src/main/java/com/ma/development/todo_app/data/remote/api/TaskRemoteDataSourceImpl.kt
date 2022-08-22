@@ -1,8 +1,8 @@
 package com.ma.development.todo_app.data.remote.api
 
-import com.ma.development.todo_app.data.DataNotAvailableException
+import com.ma.development.todo_app.data.exception.DataNotAvailableException
 import com.ma.development.todo_app.data.Entities.*
-import com.ma.development.todo_app.domain.util.Result
+import com.ma.development.todo_app.domain.utils.Result
 import com.ma.development.todo_app.domain.mapper.IMapper
 import com.ma.development.todo_app.domain.model.Task
 import kotlinx.coroutines.Dispatchers

@@ -11,7 +11,7 @@ import androidx.navigation.fragment.findNavController
 import com.ma.development.todo_app.R
 import com.ma.development.todo_app.databinding.FragmentTaskEditBinding
 import com.ma.development.todo_app.domain.model.Task
-import com.ma.development.todo_app.utils.*
+import com.ma.development.todo_app.presentation.utils.*
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

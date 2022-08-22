@@ -8,8 +8,6 @@ import com.ma.development.todo_app.domain.model.Task
 import com.ma.development.todo_app.domain.usecases.DeleteTaskUseCase
 import com.ma.development.todo_app.domain.usecases.GetTaskByIdUseCase
 import com.ma.development.todo_app.domain.usecases.UpdateTaskStatusUseCase
-import com.ma.development.todo_app.domain.usecases.UpdateTaskStatusUseCase_Factory
-import com.ma.development.todo_app.domain.util.onSuccess
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject

@@ -11,7 +11,7 @@ import com.ma.development.todo_app.R
 import com.ma.development.todo_app.databinding.CustomBottomSheetDialogBinding
 import com.ma.development.todo_app.databinding.FragmentTasksFeedBinding
 import com.ma.development.todo_app.domain.model.Task
-import com.ma.development.todo_app.utils.*
+import com.ma.development.todo_app.presentation.utils.*
 import dagger.hilt.android.AndroidEntryPoint
 
 

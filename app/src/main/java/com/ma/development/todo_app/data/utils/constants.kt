@@ -1,4 +1,4 @@
-package com.ma.development.todo_app.utils
+package com.ma.development.todo_app.presentation.utils
 
 const val TODO_API_BASE_URL = "https://api-nodejs-todolist.herokuapp.com/"
 

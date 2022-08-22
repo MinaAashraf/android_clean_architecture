@@ -2,19 +2,17 @@ package com.ma.development.todo_app.di
 
 import android.content.Context
 import com.ma.development.todo_app.data.remote.api.TaskApi
-import com.ma.development.todo_app.utils.CACHE_SIZE_BYTES
-import com.ma.development.todo_app.utils.TODO_API_AUTHORIZATION_HEADER
-import com.ma.development.todo_app.utils.TODO_API_BASE_URL
-import com.ma.development.todo_app.utils.TODO_API_CONTENT_TYPE_HEADER
+import com.ma.development.todo_app.presentation.utils.CACHE_SIZE_BYTES
+import com.ma.development.todo_app.presentation.utils.TODO_API_AUTHORIZATION_HEADER
+import com.ma.development.todo_app.presentation.utils.TODO_API_BASE_URL
+import com.ma.development.todo_app.presentation.utils.TODO_API_CONTENT_TYPE_HEADER
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
 import okhttp3.Cache
-import okhttp3.Interceptor
 import okhttp3.OkHttpClient
-import okhttp3.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton

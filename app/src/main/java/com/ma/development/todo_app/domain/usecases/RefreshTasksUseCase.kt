@@ -1,8 +1,7 @@
 package com.ma.development.todo_app.domain.usecases
 
 import com.ma.development.todo_app.data.repository.TaskRepository
-import com.ma.development.todo_app.domain.model.Task
-import com.ma.development.todo_app.domain.util.Result
+import com.ma.development.todo_app.domain.utils.Result
 import javax.inject.Inject
 
 class RefreshTasksUseCase @Inject constructor(private val taskRepository: TaskRepository) {

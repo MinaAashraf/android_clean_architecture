@@ -2,12 +2,12 @@ package com.ma.development.todo_app.data.repository
 
 import androidx.lifecycle.LiveData
 import com.ma.development.todo_app.data.Entities.*
-import com.ma.development.todo_app.domain.util.Result
+import com.ma.development.todo_app.domain.utils.Result
 import com.ma.development.todo_app.data.local.TaskLocalDataSource
 import com.ma.development.todo_app.data.remote.api.TaskRemoteDataSource
 import com.ma.development.todo_app.domain.model.Task
-import com.ma.development.todo_app.domain.util.onFailure
-import com.ma.development.todo_app.domain.util.onSuccess
+import com.ma.development.todo_app.domain.utils.onFailure
+import com.ma.development.todo_app.domain.utils.onSuccess
 import javax.inject.Inject
 
 class TaskRepositoryImpl @Inject constructor(
