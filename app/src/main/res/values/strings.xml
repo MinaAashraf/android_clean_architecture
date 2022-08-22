@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Todo App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="dialog_title">Delete</string>
+    <string name="dialog_body">Are you sure to delete this task?</string>
+    <string name="cancel_button_label">Cancel</string>
+    <string name="delete_button_label">Delete</string>
+    <string name="description_edit_txt_hint">Type here:</string>
+    <string name="task_description_label">Task description</string>
+    <string name="error_empty_description">Enter task description please</string>
+    <string name="save_btn_label">SAVE</string>
+    <string name="completed_tasks_title">Completed tasks</string>
+    <string name="inCompleted_tasks_title">InCompleted tasks</string>
+    <string name="all_task_title">All task</string>
+    <string name="inComplete_label">Incomplete</string>
+    <string name="completed_label">Completed</string>
+    <string name="see_more_label">See more</string>
+    <string name="network_error_message">You are currently offline</string>
+</resources>

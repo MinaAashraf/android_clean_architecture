@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/tasksFeedFragment">
+
+    <fragment
+        android:id="@+id/tasksFeedFragment"
+        android:name="com.ma.development.todo_app.presentation.tasksfeed.TasksFeedFragment"
+        android:label="Todo App"
+        tools:layout="@layout/fragment_tasks_feed" >
+        <action
+            android:id="@+id/action_tasksFeedFragment_to_taskEditFragment"
+            app:destination="@id/taskEditFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/taskEditFragment"
+        android:name="com.ma.development.todo_app.presentation.taskedit.TaskEditFragment"
+        android:label="Task Status"
+        tools:layout="@layout/fragment_task_edit" />
+</navigation>
